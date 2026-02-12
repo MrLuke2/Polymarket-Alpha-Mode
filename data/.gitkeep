@@ -1,0 +1,8 @@
+# Data Directory
+This directory stores runtime data including:
+- Market snapshots
+- Trade history
+- Whale activity logs
+- Portfolio state
+
+Note: Data files are excluded from git via .gitignore

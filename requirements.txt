@@ -1,0 +1,64 @@
+# ============================================
+# POLYMARKET GOD MODE - REQUIREMENTS
+# Elite Trading Platform Dependencies
+# ============================================
+
+# === CORE FRAMEWORK ===
+python-dotenv==1.0.1
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# === DASHBOARD (War Room) ===
+streamlit==1.40.0
+plotly==5.18.0
+streamlit-autorefresh==1.0.1
+
+# === AI/LLM (Council of Agents) ===
+langchain==0.1.20
+langchain-openai==0.1.6
+langchain-anthropic==0.1.13
+langgraph==0.0.55
+openai==1.30.1
+anthropic==0.25.1
+
+# === DATA & FEEDS ===
+requests==2.31.0
+aiohttp==3.9.3
+websockets==12.0
+websocket-client==1.7.0
+httpx==0.27.0
+
+# === POLYMARKET INTEGRATION ===
+py-clob-client==0.1.0
+eth-account==0.11.0
+web3==6.15.1
+
+# === DATA PROCESSING ===
+pandas==2.2.0
+numpy==1.26.4
+python-dateutil==2.8.2
+
+# === ASYNC & CONCURRENCY ===
+asyncio-throttle==1.0.2
+aiofiles==23.2.1
+
+# === CACHING & STATE ===
+redis==5.0.1
+diskcache==5.6.3
+
+# === LOGGING & MONITORING ===
+loguru==0.7.2
+rich==13.7.0
+
+# === TESTING ===
+pytest==8.0.0
+pytest-asyncio==0.23.4
+pytest-cov==4.1.0
+
+# === TYPE CHECKING ===
+mypy==1.8.0
+types-requests==2.31.0.20240125
+
+# === MARKETING & CONTENT ===
+matplotlib==3.8.3
+pillow==10.2.0
