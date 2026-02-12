@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     """Main application settings loaded from environment variables."""
     
     # === APPLICATION ===
-    app_name: str = "Polymarket God Mode"
+    app_name: str = "Polymarket Alpha Mode"
     app_version: str = "1.0.0"
     environment: Environment = Environment.DEVELOPMENT
     debug: bool = False
@@ -41,7 +41,7 @@ class Settings(BaseSettings):
     wallet_address: Optional[str] = Field(default=None, alias="WALLET_ADDRESS")
     
     # === GITHUB ===
-    github_repo_url: str = Field(default="https://github.com/mrnlu/polymarket-god-mode", alias="GITHUB_REPO_URL")
+    github_repo_url: str = Field(default="https://github.com/MrLuke2/Polymarket-Alpha-Mode", alias="GITHUB_REPO_URL")
     
     # === WHALE WATCHER ===
     whale_addresses: List[str] = Field(default_factory=lambda: [

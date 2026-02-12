@@ -15,8 +15,8 @@ def get_repo_info() -> Dict[str, str]:
     """
     info = {
         "url": settings.github_repo_url,
-        "name": "polymarket-god-mode",
-        "author": "mrnlu"
+        "name": "Polymarket-Alpha-Mode",
+        "author": "MrLuke2"
     }
     
     # Try to extract from URL

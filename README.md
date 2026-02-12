@@ -1,4 +1,4 @@
-# ⚡ POLYMARKET GOD MODE ⚡
+# ⚡ POLYMARKET ALPHA MODE ⚡
 
 > Elite Prediction Market Intelligence Platform
 
