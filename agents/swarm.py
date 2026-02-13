@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - Council of Agents (Swarm Intelligence)
+POLYMARKET ALPHA MODE - Council of Agents (Swarm Intelligence)
 ============================================================
 Multi-agent voting system for trade decisions.
 Three specialized agents must reach 2/3 consensus to execute.

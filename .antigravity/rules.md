@@ -1,4 +1,4 @@
-# Polymarket God Mode - Antigravity Agent Rules
+# Polymarket Alpha Mode - Antigravity Agent Rules
 
 ## Project Overview
 This is a prediction market trading platform with multi-agent AI decision-making. 

@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - War Room Dashboard
+POLYMARKET ALPHA MODE - War Room Dashboard
 ========================================
 Cyberpunk Bloomberg Terminal aesthetic.
 Real-time monitoring and control interface.
@@ -58,7 +58,7 @@ whale_bios = load_whale_dossier()
 # ============================================
 
 st.set_page_config(
-    page_title="POLYMARKET GOD MODE",
+    page_title="POLYMARKET ALPHA MODE",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -102,7 +102,7 @@ CYBERPUNK_CSS = """
     header {visibility: hidden;}
     
     /* Main title styling */
-    .god-mode-title {
+    .alpha-mode-title {
         font-family: 'Orbitron', monospace;
         font-size: 2.5rem;
         font-weight: 900;
@@ -348,7 +348,7 @@ st.markdown(CYBERPUNK_CSS, unsafe_allow_html=True)
 # HEADER
 # ============================================
 
-st.markdown('<h1 class="god-mode-title">⚡ POLYMARKET GOD MODE ⚡</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="alpha-mode-title">⚡ POLYMARKET ALPHA MODE ⚡</h1>', unsafe_allow_html=True)
 st.markdown('<p class="subtitle">ELITE PREDICTION MARKET INTELLIGENCE SYSTEM</p>', unsafe_allow_html=True)
 
 # System status bar

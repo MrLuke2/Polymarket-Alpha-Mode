@@ -1,6 +1,6 @@
 
 """
-POLYMARKET GOD MODE - Cross-Exchange Correlation Alpha
+POLYMARKET ALPHA MODE - Cross-Exchange Correlation Alpha
 ======================================================
 Predictive alpha engine using Binance Order Book Imbalance.
 

@@ -45,7 +45,7 @@ A cyberpunk-themed trading dashboard with multi-agent AI decision-making and wha
 ## 📁 Project Structure
 
 ```
-polymarket-god-mode/
+polymarket-alpha-mode/
 ├── dashboard/
 │   ├── __init__.py
 │   └── app.py              # Streamlit War Room UI
@@ -75,6 +75,19 @@ polymarket-god-mode/
 
 ---
 
+
+## 🔁 Repository Rename Notes
+
+This project has been renamed to **Polymarket-Alpha-Mode**.
+
+If you cloned the old repository name, update your local remote:
+
+```bash
+git remote set-url origin git@github.com:MrLuke2/Polymarket-Alpha-Mode.git
+# or https:
+# git remote set-url origin https://github.com/MrLuke2/Polymarket-Alpha-Mode.git
+```
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -85,7 +98,7 @@ polymarket-god-mode/
 
 ```bash
 # Clone/download the repository
-cd polymarket-god-mode
+cd polymarket-alpha-mode
 
 # Create virtual environment (recommended)
 python -m venv venv

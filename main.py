@@ -1,6 +1,6 @@
 """
-POLYMARKET GOD MODE - Main Backend Runner
-==========================================
+POLYMARKET ALPHA MODE - Main Backend Runner
+===========================================
 Orchestrates all trading components.
 
 Run: python main.py
@@ -33,7 +33,7 @@ logger.add(
     level="INFO"
 )
 logger.add(
-    "logs/god_mode_{time:YYYY-MM-DD}.log",
+    "logs/alpha_mode_{time:YYYY-MM-DD}.log",
     rotation="1 day",
     retention="7 days",
     level="DEBUG"
@@ -44,7 +44,7 @@ logger.add(
 # MAIN ORCHESTRATOR
 # ============================================
 
-class GodModeOrchestrator:
+class AlphaModeOrchestrator:
     """
     Main orchestrator that coordinates all system components.
     """
@@ -54,7 +54,7 @@ class GodModeOrchestrator:
         self._tasks: list = []
         self._shutdown_event = asyncio.Event()
         
-        logger.info("GodMode Orchestrator initialized")
+        logger.info("AlphaMode Orchestrator initialized")
     
     async def start(self):
         """Start all system components."""
@@ -63,7 +63,7 @@ class GodModeOrchestrator:
         state_manager.set_agents_active(3)
         
         state_manager.add_log(
-            "⚡ GOD MODE ACTIVATED ⚡",
+            "⚡ ALPHA MODE ACTIVATED ⚡",
             level=LogLevel.SUCCESS,
             source="system"
         )
@@ -228,11 +228,15 @@ class GodModeOrchestrator:
                 await asyncio.sleep(120)
 
 
+
+# Backward compatibility alias for external imports
+GodModeOrchestrator = AlphaModeOrchestrator
+
 # ============================================
 # SIGNAL HANDLERS
 # ============================================
 
-orchestrator: Optional[GodModeOrchestrator] = None
+orchestrator: Optional[AlphaModeOrchestrator] = None
 
 
 def handle_shutdown(signum, frame):
@@ -255,13 +259,13 @@ async def main():
     signal.signal(signal.SIGTERM, handle_shutdown)
     
     logger.info("=" * 50)
-    logger.info("  POLYMARKET GOD MODE - Starting...")
+    logger.info("  POLYMARKET ALPHA MODE - Starting...")
     logger.info(f"  Environment: {settings.environment.value}")
     logger.info(f"  Max Trade Size: ${settings.max_single_trade}")
     logger.info(f"  Council Threshold: {settings.council_voting_threshold:.0%}")
     logger.info("=" * 50)
     
-    orchestrator = GodModeOrchestrator()
+    orchestrator = AlphaModeOrchestrator()
     
     try:
         await orchestrator.start()
@@ -269,7 +273,7 @@ async def main():
         logger.error(f"Fatal error: {e}")
         raise
     finally:
-        logger.info("GodMode terminated")
+        logger.info("AlphaMode terminated")
 
 
 if __name__ == "__main__":

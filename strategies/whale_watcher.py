@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - Whale Watcher (Copy Trading)
+POLYMARKET ALPHA MODE - Whale Watcher (Copy Trading)
 ==================================================
 Monitor top traders and intelligently copy their positions.
 
@@ -196,10 +196,11 @@ class WhaleWatcher:
                 wallet_address=address,
                 market_id=latest.get("conditionId", "unknown"),
                 market_question=latest.get("question", "Unknown Market"),
-                side=TradeDirection.BUY if latest.get("side", "").upper() == "BUY" else TradeDirection.SELL,
+                direction=TradeDirection.BUY if latest.get("side", "").upper() == "BUY" else TradeDirection.SELL,
                 outcome=TradeOutcome.YES if latest.get("outcome", "").upper() == "YES" else TradeOutcome.NO,
                 size=size,
                 price=float(latest.get("price", 0.5)),
+                tx_hash=latest.get("transactionHash", latest.get("id", "unknown")),
                 timestamp=datetime.utcnow()
             )
         except Exception as e:

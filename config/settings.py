@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - Configuration
+POLYMARKET ALPHA MODE - Configuration
 ===================================
 Central configuration management using Pydantic Settings.
 """
