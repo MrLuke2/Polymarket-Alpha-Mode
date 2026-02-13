@@ -1,6 +1,6 @@
 #!/bin/bash
 # ============================================
-# POLYMARKET GOD MODE - Launch Script
+# POLYMARKET ALPHA MODE - Launch Script
 # ============================================
 # Runs Dashboard and Trading Backend simultaneously
 #
@@ -21,7 +21,7 @@ NC='\033[0m' # No Color
 
 echo -e "${CYAN}"
 echo "╔═══════════════════════════════════════════════════════════╗"
-echo "║        ⚡ POLYMARKET GOD MODE ⚡                           ║"
+echo "║        ⚡ POLYMARKET ALPHA MODE ⚡                           ║"
 echo "║        Elite Prediction Market Intelligence                ║"
 echo "╚═══════════════════════════════════════════════════════════╝"
 echo -e "${NC}"
@@ -34,7 +34,7 @@ if [ ! -f .env ]; then
     echo -e "${YELLOW}Warning: .env file not found. Creating template...${NC}"
     cat > .env << EOF
 # ============================================
-# POLYMARKET GOD MODE - Environment Variables
+# POLYMARKET ALPHA MODE - Environment Variables
 # ============================================
 
 # API Keys

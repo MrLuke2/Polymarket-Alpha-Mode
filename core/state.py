@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - State Manager
+POLYMARKET ALPHA MODE - State Manager
 ===================================
 Centralized state management for the trading platform.
 Thread-safe operations for multi-component access.

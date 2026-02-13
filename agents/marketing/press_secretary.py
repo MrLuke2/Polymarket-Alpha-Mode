@@ -1,6 +1,6 @@
 
 """
-POLYMARKET GOD MODE - The Press Secretary (Viral Engine)
+POLYMARKET ALPHA MODE - The Press Secretary (Viral Engine)
 ========================================================
 Generates marketing content, PnL cards, and tweet drafts.
 Human-in-the-loop: Generates the content, user confirms.
@@ -49,7 +49,7 @@ class PressSecretary:
             ax.axis('off')
             
             # Add text
-            plt.text(0.5, 0.85, "POLYMARKET GOD MODE", color=accent_cyan, fontsize=24, 
+            plt.text(0.5, 0.85, "POLYMARKET ALPHA MODE", color=accent_cyan, fontsize=24, 
                      fontweight='bold', ha='center', fontfamily='monospace')
             plt.text(0.5, 0.75, "ALPHA CAPTURED", color=text_color, fontsize=16, 
                      ha='center', fontfamily='monospace')
@@ -91,8 +91,8 @@ class PressSecretary:
         # Here we provide curated templates that look AI-generated
         
         templates = [
-            f"Market logic was clear. Predicted '{market_question[:20]}...' with high confidence. +{roi_pct:.1f}% ROI in the bag. ⚡ #Polymarket #Alpha #GodMode",
-            f"Another win for the God Mode Council. Captured ${profit:.2f} on the latest swing. The swarm intelligence is unmatched. 🤖💹 #PredictionMarkets #Trading",
+            f"Market logic was clear. Predicted '{market_question[:20]}...' with high confidence. +{roi_pct:.1f}% ROI in the bag. ⚡ #Polymarket #Alpha #AlphaMode",
+            f"Another win for the Alpha Mode Council. Captured ${profit:.2f} on the latest swing. The swarm intelligence is unmatched. 🤖💹 #PredictionMarkets #Trading",
             f"While the crowd was uncertain, the Alpha Engine saw the imbalance. ${profit:.2f} profit secured. Precision trading on @Polymarket. 🎯🔥"
         ]
         

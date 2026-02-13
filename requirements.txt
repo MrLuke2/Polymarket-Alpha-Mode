@@ -1,5 +1,5 @@
 # ============================================
-# POLYMARKET GOD MODE - REQUIREMENTS
+# POLYMARKET ALPHA MODE - REQUIREMENTS
 # Elite Trading Platform Dependencies
 # ============================================
 
