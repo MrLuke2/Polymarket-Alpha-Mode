@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - Polymarket API Client
+POLYMARKET ALPHA MODE - Polymarket API Client
 ============================================
 Handles all interactions with Polymarket's CLOB API.
 """

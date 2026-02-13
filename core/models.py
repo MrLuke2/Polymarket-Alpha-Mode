@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - Core Models
+POLYMARKET ALPHA MODE - Core Models
 =================================
 Pydantic models for trades, markets, agents, and system state.
 """

@@ -45,7 +45,7 @@ A cyberpunk-themed trading dashboard with multi-agent AI decision-making and wha
 ## 📁 Project Structure
 
 ```
-polymarket-god-mode/
+polymarket-alpha-mode/
 ├── dashboard/
 │   ├── __init__.py
 │   └── app.py              # Streamlit War Room UI
@@ -85,7 +85,7 @@ polymarket-god-mode/
 
 ```bash
 # Clone/download the repository
-cd polymarket-god-mode
+cd polymarket-alpha-mode
 
 # Create virtual environment (recommended)
 python -m venv venv

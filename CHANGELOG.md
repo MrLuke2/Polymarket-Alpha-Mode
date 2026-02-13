@@ -1,4 +1,4 @@
-# POLYMARKET GOD MODE - System Change Log
+# POLYMARKET ALPHA MODE - System Change Log
 
 This file tracks all modifications, module additions, and architectural shifts to ensure system stability and auditability.
 

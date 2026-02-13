@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - Test Suite
+POLYMARKET ALPHA MODE - Test Suite
 ================================
 """
 
@@ -275,7 +275,7 @@ class TestConfiguration:
         """Test default settings values."""
         settings = Settings()
         
-        assert settings.app_name == "Polymarket God Mode"
+        assert settings.app_name == "Polymarket Alpha Mode"
         assert settings.max_single_trade == 500.0
         assert settings.council_voting_threshold == 0.67
     

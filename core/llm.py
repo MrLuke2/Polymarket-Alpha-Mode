@@ -1,5 +1,5 @@
 """
-POLYMARKET GOD MODE - LLM Integration
+POLYMARKET ALPHA MODE - LLM Integration
 ======================================
 Unified interface for LLM providers (Anthropic Claude, OpenAI GPT).
 Agents use this to get AI-powered analysis.
