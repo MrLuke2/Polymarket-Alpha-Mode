@@ -228,6 +228,10 @@ class AlphaModeOrchestrator:
                 await asyncio.sleep(120)
 
 
+
+# Backward compatibility alias for external imports
+GodModeOrchestrator = AlphaModeOrchestrator
+
 # ============================================
 # SIGNAL HANDLERS
 # ============================================

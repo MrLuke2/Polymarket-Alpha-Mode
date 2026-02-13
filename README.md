@@ -75,6 +75,19 @@ polymarket-alpha-mode/
 
 ---
 
+
+## 🔁 Repository Rename Notes
+
+This project has been renamed to **Polymarket-Alpha-Mode**.
+
+If you cloned the old repository name, update your local remote:
+
+```bash
+git remote set-url origin git@github.com:MrLuke2/Polymarket-Alpha-Mode.git
+# or https:
+# git remote set-url origin https://github.com/MrLuke2/Polymarket-Alpha-Mode.git
+```
+
 ## 🚀 Quick Start
 
 ### Prerequisites

@@ -4,6 +4,7 @@ This file tracks all modifications, module additions, and architectural shifts t
 
 | Date | Task | Module | Description | Status |
 |------|------|--------|-------------|--------|
+| 2026-02-13 | Rebrand + model fix | Core/Docs/Strategies | Renamed God Mode to Alpha Mode across platform text and runtime identifiers; fixed whale activity mapping to use direction + tx_hash for model consistency. | ✅ Completed |
 | 2026-02-12 | Whale Data Integration | `strategies/whale_watcher.py` | Replaced placeholder whales with real dossier data (Domer, kch123, etc.). | ✅ |
 | 2026-02-12 | Dossier Intelligence | `utils/dossier.py` | Created parser to extract bio/intel from `polymarket_whale.md`. | ✅ |
 | 2026-02-12 | Dashboard Intel UI | `dashboard/app.py` | Added sidebar dossier toggle and inline whale biographies. | ✅ |
